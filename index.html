@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
+    <title>yummy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- -------------------------------favicon------------------------------- -->
+    <link href="./images/logo.png" rel="icon" type="image/png">
+    
+    <!-- -------------------------------Linking fonts--------------------------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--------------------------------- Linking ---------------------------->
+    <!-- linking bootstrap style sheet -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- linking awsome font style sheets -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- linking media query style sheet -->
+    <link rel="stylesheet" href="./css/mediaQuary.css" />
+    <!-- linking main css style sheet -->
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body class=" ">
+    
+    <!-- * navbar -->
+    <nav class="d-flex justify-content-between">
+        <ul class="nav flex-column  text-white vh-100">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="pageHandling(this.innerHTML)">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="pageHandling(this.innerHTML)">Area</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="pageHandling(this.innerHTML)">Ingredients</a>
+              </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="pageHandling(this.innerHTML)">Contact Us</a>
+              </li>
+
+          </ul>
+
+          <div class="whitePart vh-100 bg-white">
+
+          </div>
+          
+    </nav>
+
+
+        <!-- * categrories page -->
+        <header class="container categories ">
+            <div class="row py-5">
+                <div class="col-md-3">
+                    <figure class="position-relative overflow-hidden">
+                        <img class="w-100" src="./images/categories/beef.png" alt="beef">
+                        <figcaption class="layer text-center p-2">
+                            <h3>Beef</h3>
+                            <p  class="pb-1">Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1]</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="position-relative overflow-hidden">
+                        <img class="w-100" src="./images/categories/chicken.png" alt="beef">
+                        <figcaption class="layer text-center p-2">
+                            <h3>Chicken</h3>
+                            <p>Chicken is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common</p>                        </figcaption>
+                    </figure>
+                </div>
+
+
+                <div class="col-md-3">
+                    <figure class="position-relative overflow-hidden">
+                        <img class="w-100" src="./images/categories/desert.png" alt="beef">
+                        <figcaption class="layer text-center p-2">
+                            <h3>Dessert</h3>
+                            <p>Dessert is a course that concludes a meal. The course usually consists of sweet foods, such as confections dishes or</p>                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="position-relative overflow-hidden">
+                        <img class="w-100" src="./images/categories/lamb.png" alt="beef">
+                        <figcaption class="layer text-center p-2">
+                            <h3>Lamb</h3>
+                            <p>Lamb, hogget, and mutton are the meat of domestic sheep (species Ovis aries) at different ages.
+
+                                A sheep in its first</p>                        </figcaption>
+                    </figure>
+                </div>
+
+
+                <div class="col-md-3">
+                    <figure class="position-relative overflow-hidden">
+                        <img class="w-100" src="./images/categories/miscellaneous.png" alt="beef">
+                        <figcaption class="layer text-center p-2">
+                            <h3>Miscellaneous</h3>
+                            <p>General foods that don't fit into another category</p>                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="position-relative overflow-hidden">
+                        <img class="w-100" src="./images/categories/pasta.png" alt="beef">
+                        <figcaption class="layer text-center p-2">
+                            <h3>Pasta</h3>
+                            <p>Pasta is a staple food of traditional Italian cuisine, with the first reference dating to 1154 in Sicily.
+
+                                Also commonly used</p>                        </figcaption>
+                    </figure>
+                </div>
+
+
+
+                <div class="col-md-3">
+                    <figure class="position-relative overflow-hidden">
+                        <img class="w-100" src="./images/categories/pork.png" alt="beef">
+                        <figcaption class="layer text-center p-2">
+                            <h3>Pork</h3>
+                            <p>Pork is the culinary name for meat from a domestic pig (Sus scrofa domesticus). It is the most commonly consumed</p>                        </figcaption>
+                    </figure>
+                </div>
+
+
+                <div class="col-md-3">
+                    <figure class="position-relative overflow-hidden">
+                        <img class="w-100" src="./images/categories/seafood.png" alt="beef">
+                        <figcaption class="layer text-center p-2">
+                            <h3>Seafood</h3>
+                            <p>Seafood is any form of sea life regarded as food by humans. Seafood prominently includes fish and shellfish. Shellfish include</p>                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="position-relative overflow-hidden">
+                        <img class="w-100" src="./images/categories/side.png" alt="beef">
+                        <figcaption class="layer text-center p-2">
+                            <h3>Side</h3>
+                            <p>A side dish, sometimes referred to as a side order, side item, or simply a side, is a food item</p>                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="position-relative overflow-hidden">
+                        <img class="w-100" src="./images/categories/starter.png" alt="beef">
+                        <figcaption class="layer text-center p-2">
+                            <h3>Starter</h3>
+                            <p>An entrée in modern French table service and that of much of the English-speaking world (apart from the United States</p>                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="position-relative overflow-hidden">
+                        <img class="w-100" src="./images/categories/vegan.png" alt="beef">
+                        <figcaption class="layer text-center p-2">
+                            <h3>Vegan</h3>
+                            <p>Veganism is both the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy</p>                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="position-relative overflow-hidden">
+                        <img class="w-100" src="./images/categories/vegetarian.png" alt="beef">
+                        <figcaption class="layer text-center p-2">
+                            <h3>Vegetarian</h3>
+                            <p>Vegetarianism is the practice of abstaining from the consumption of meat (red meat, poultry, seafood, and the flesh of any</p>                        </figcaption>
+                    </figure>
+                </div>
+
+
+                <div class="col-md-3">
+                    <figure class="position-relative overflow-hidden">
+                        <img class="w-100" src="./images/categories/breakfast.png" alt="beef">
+                        <figcaption class="layer text-center p-2">
+                            <h3>Breakfast</h3>
+                            <p>Breakfast is the first meal of a day. The word in English refers to breaking the fasting period of the</p>                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="position-relative overflow-hidden">
+                        <img class="w-100" src="./images/categories/goat.png" alt="beef">
+                        <figcaption class="layer text-center p-2">
+                            <h3>Goat    </h3>
+                            <p>The domestic goat or simply goat (Capra aegagrus hircus) is a subspecies of C. aegagrus domesticated from the wild goat</p>                        </figcaption>
+                    </figure>
+                </div>
+
+
+
+
+
+
+            </div>
+        </header>
+
+        <!-- * area page -->
+
+        <header class="container area d-none ">
+            
+    <div class="row py-5 g-3">
+        <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+            <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+            <h5 class="fs-3 fw-bold">chicken</h5>
+            <p class="fs-6">The chicken is a type of domesticated fowl, a subspecies of the red junglefowl (Gallus gallus). It is one of</p>
+        </div>
+    
+        <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+            <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+            <h5 class="fs-3 fw-bold">salmon</h5>
+            <p class="fs-6">Salmon is the common name for several species of ray-finned fish in the family Salmonidae. Other fish in the same</p>
+        </div>
+    
+        <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+            <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+            <h5 class="fs-3 fw-bold">beef</h5>
+            <p class="fs-6">Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.</p>
+        </div>
+        <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+            <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+            <h5 class="fs-3 fw-bold">pork</h5>
+            <p class="fs-6">Pork is the culinary name for the flesh of a domestic pig (Sus scrofa domesticus). It is the most commonly</p>
+        </div>
+        <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+            <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+            <h5 class="fs-3 fw-bold">avocado</h5>
+            <p class="fs-6">The avocado, a tree with probable origin in South Central Mexico, is classified as a member of the flowering plant</p>
+        </div>
+        <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+            <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+            <h5 class="fs-3 fw-bold">apple cider vinegar</h5>
+            <p class="fs-6">Apple cider vinegar, or cider vinegar, is a vinegar made from fermented apple juice, and used in salad dressings, marinades,</p>
+        </div>
+        <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+            <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+            <h5 class="fs-3 fw-bold">asparagus</h5>
+            <p class="fs-6">Asparagus, or garden asparagus, folk name sparrow grass, scientific name Asparagus officinalis, is a perennial flowering plant species in the</p>
+        </div>
+    
+    
+    
+    
+        <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+            <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+            <h5 class="fs-3 fw-bold">aubergine</h5>
+            <p class="fs-6">Eggplant (US, Australia), aubergine (UK), or brinjal (South Asia and South Africa) is a plant species in the nightshade family</p>
+        </div>
+    
+        <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+            <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+            <h5 class="fs-3 fw-bold">baby plum tomatoes</h5>
+            <p class="fs-6">The tomato is the edible, often red, berry of the plant Solanum lycopersicum, commonly known as a tomato plant. The</p>
+        </div>
+    
+        <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+            <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+            <h5 class="fs-3 fw-bold">bacon</h5>
+            <p class="fs-6">Bacon is a type of salt-cured pork. Bacon is prepared from several different cuts of meat, typically from the pork</p>
+        </div>
+        <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+            <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+            <h5 class="fs-3 fw-bold">baking powder</h5>
+            <p class="fs-6">Baking powder is a dry chemical leavening agent, a mixture of a carbonate or bicarbonate and a weak acid. The</p>
+        </div>
+        <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+            <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+            <h5 class="fs-3 fw-bold">balsamic vinegar</h5>
+            <p class="fs-6">Balsamic vinegar (Italian: aceto balsamico), occasionally shortened to balsamic, is a very dark, concentrated, and intensely flavoured vinegar originating in</p>
+        </div>
+        <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+            <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+            <h5 class="fs-3 fw-bold">basil</h5>
+            <p class="fs-6">Basil, also called great basil, is a culinary herb of the family Lamiaceae (mints).
+
+                Basil is native to tropical regions from</p>
+        </div>
+        <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+            <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+            <h5 class="fs-3 fw-bold">basil leaves</h5>
+            <p class="fs-6">Basil, also called great basil, is a culinary herb of the family Lamiaceae (mints).
+            </p>
+
+        </div>-
+    <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+        <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+        <h5 class="fs-3 fw-bold">basmati rice</h5>
+        <p class="fs-6">Basmati is a variety of long, slender-grained aromatic rice which is traditionally from the Indian subcontinent. As of 2018-19, India</p>
+    </div>
+    
+    
+    <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+        <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+        <h5 class="fs-3 fw-bold">bay leaf</h5>
+        <p class="fs-6">The bay leaf is an aromatic leaf commonly used in cooking. It can be used whole, or as dried and</p>
+    </div>
+    
+    <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+        <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+        <h5 class="fs-3 fw-bold">beef brisket</h5>
+        <p class="fs-6">Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.</p>
+    </div>
+    
+    <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+        <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+        <h5 class="fs-3 fw-bold">beef fillet</h5>
+        <p class="fs-6">Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.</p>
+    </div>
+    <div class="col-md-3 text-center text-white text-capitalize fs-1" onclick="getArea(this.lastElementChild.innerHTML)">
+        <i class="fa-solid fa-drumstick-bite fa-4x" style="color: #ffffff;"></i>
+        <h5 class="fs-3 fw-bold">beef gravy</h5>
+        <p class="fs-6">Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.</p>
+    </div>
+
+ 
+    
+    
+    </div>`
+        </header>
+
+
+
+    <!-- linking java script files -->
+    <script src="./javascript/bootstrap.bundle.min.js"></script>
+    <script src="./javascript/main.js"></script>
+
+</body>
+</html>
